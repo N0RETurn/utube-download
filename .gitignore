@@ -1,34 +1,11 @@
-# Python bytecode and cache
 __pycache__/
-*.py[cod]
-*$py.class
-
-# Virtual environments
-venv/
-.env/
+*.pyc
+*.pyo
+*.pyd
+.Python
 env/
-
-# Downloads folder (output files)
-downloads/
-*.mp4
-*.mp3
-*.zip
-
-# Logs and temp files
-*.log
-*.tmp
-
-# OS files
+venv/
 .DS_Store
-Thumbs.db
-
-# IDE settings
-.vscode/
-.idea/
-
-# Flask instance folder
-instance/
-
-# Environment variables
-*.env
-.env.local
+downloads/
+cookies/
+*.log
